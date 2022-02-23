@@ -1,0 +1,30 @@
+Foreman - https://www.freeipa.org/page/Main_Page
+Provision from anywhere
+Bare metal (MaaS), Amazon EC2, Google Compute Engine, OpenStack, Libvirt, oVirt, VMware, and many other providers allow you to manage a hybrid cloud through Foreman.
+
+Configuration
+An external node classifier, hiera-like parameters, and reports monitoring for Puppet, Salt and Chef are included. Completely ready to tweak host groups in your data center.
+
+Monitor hosts
+Foreman reports will tell you exactly what happened in your nodes, and alert you when things go awry. See in your dashboard which hosts are healthy, and which ones are outdated.
+
+IPA - https://www.theforeman.org/
+
+Identity
+Manage Linux users and client hosts in your realm from one central location with CLI, Web UI or RPC access. Enable Single Sign On authentication for all your systems, services and applications.
+
+Policy
+Define Kerberos authentication and authorization policies for your identities. Control services like DNS, SUDO, SELinux or autofs.
+
+Trusts
+Create mutual trust with other Identity Management systems like Microsoft Active Directory.
+
+Requirement - 
+
+Integrated security information management solution combining Linux (Fedora), 389 Directory Server, MIT Kerberos, NTP, DNS, Dogtag certificate system, SSSD and others.
+Built on top of well known Open Source components and standard protocols
+Strong focus on ease of management and automation of installation and configuration tasks.
+Full multi master replication for higher redundancy and scalability
+Extensible management interfaces (CLI, Web UI, XMLRPC and JSONRPC API) and Python SDK
+
+
