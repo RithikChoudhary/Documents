@@ -1,0 +1,34 @@
+PULP COre
+
+Pulp is a platform for managing repositories of content, such as software packages, and pushing that content out to large numbers of consumers.
+
+Using Pulp you can:
+
+1.Locally mirror all or part of a repository
+2.Host your own content in a new repository
+3.Manage content from multiple sources in one place
+4.Promote content through different repos in an organized way
+
+Pulp is completely free and open-source!
+
+* sync packages from pypl to a local repository
+* add or remove packages as desired
+* retain old version
+* control which version appear together
+* sync content into a development repo
+* "Promote" by copying to a test repo and then to a production repository
+* useful for testing upstream conten , such as new RHEL point releases
+
+DEV -->Test -->Prod
+
+Features :-
+* safely roll back with repository versioning
+* optimizing dist storage during remote synchronization
+	-default download all content
+	-can enable on_demand or streamed option
+* mulpile storage options
+	-store at local file storage,S3 bucket,Azure
+* High Availiblity
+	-vailability deployments, you will need to configure a clustered Postgresql and storage backend
+	-connect load balancers like HA Proxy or DNS load balancing between the webserver and the Pulpcore API
+	
